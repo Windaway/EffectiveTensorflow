@@ -481,7 +481,7 @@ def visualize_labeled_images(images, labels, max_outputs=3, name="image"):
 
 由于验证测试过一段时间测试一次，所以不用担心效率。
 
-## Numerical stability in TensorFlow
+## Tensorflow中的数值计算稳定性
 <a name="stable"></a>
 用TF或者Numpy之类数学计算库的时候，既要考虑数学计算的正确性，也要注意数值计算的稳定性。
 
